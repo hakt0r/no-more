@@ -1,0 +1,28 @@
+{
+  "name": "no-more",
+  "version": "1.0.0",
+  "description": "the package of resistance",
+  "main": "protest.js",
+  "scripts": {
+    "build": "node no-more-html.js",
+    "no-more": "node no-more.js"
+  },
+  "bin": {
+    "protest": "./protest.js",
+    "no-more": "./no-more.js",
+    "no-more-html": "./no-more-html.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakt0r/no-more.git"
+  },
+  "keywords": [
+    "protest"
+  ],
+  "author": "Sebastian Glaser <anx+no-more@hktr.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hakt0r/no-more/issues"
+  },
+  "homepage": "https://github.com/hakt0r/no-more#readme"
+}
